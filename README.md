@@ -13,4 +13,4 @@
 
 **Страница проекта**
 
-[Ссылка]().
+[Ссылка](https://0xytoc1n.github.io/russian-travel/).
