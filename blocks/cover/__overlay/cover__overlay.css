@@ -6,9 +6,5 @@
     position: absolute;
     opacity: 0.3;
     background: #2A2C2F;
+    z-index: -1;
 }
-
-.cover:hover .cover__overlay {
-    opacity: 0.8;
-}
-

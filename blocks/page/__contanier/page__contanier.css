@@ -1,0 +1,12 @@
+.page__contanier {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+    .page__contanier {
+        padding-top: 16px;
+    }
+}
