@@ -1,22 +1,32 @@
 .intro {
-    width: calc(100% - 148px * 2);
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 690px;
+    min-width: 288px;
+    margin: 0 0 0 148px;
+    padding: 92px 0 0;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
     .intro {
-        width: calc(100% - 48px*2);
+        margin-left: 48px;
     }
 } 
 
 @media screen and (max-width: 1023px) {
     .intro {
-        width: calc(100% - 24px * 2);
+        max-width: calc(720px + (690 - 720) * ((100vw - 768px) / (1024 - 768)));
+        padding-top: 88px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro {
-        width: calc(100% - 16px * 2);
+        max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (767 - 320)));
+        padding-top: 64px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
